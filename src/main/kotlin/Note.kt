@@ -1,5 +1,5 @@
 data class Note(
-    var id: Int = (0..99).random(),
+    var id: Long = 0,
     val ownerId: Int = (0..99).random(),
     var title: String = listOf("Hello", "Bay", "Whats up").random(),
     var text: String = listOf("Hello", "Bay", "Whats up").random(),

@@ -1,8 +1,8 @@
 data class Comment(
-    var id: Int = (0..99).random(),
-    val noteId: Note,
+    var id: Long = 0,
+    val noteId: Long,
     val ownerId: Note,
-    var message: String,
+    var message: String = "",
 
     var isDelete: Boolean = false,
 )
