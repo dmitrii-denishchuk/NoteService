@@ -1,23 +1,6 @@
-# Notes
+# VK Notes
 
-Оставил поля для Note:
-* id
-* ownerId
-* title
-* text
-* date
-* comments
-* readComments
-* viewUrl
-* privacyView
-* canComment
-* textWiki
+## Задача
+Реализовать методы для работы с заметками, а так же добиться максимального покрытия автотестами.
 
-Оставил поля для Comment:
-* id
-* noteId
-* ownerId
-* message
-
-Добавил свое для обозначание доступности комментария:
-* isDelete
+## Результат
