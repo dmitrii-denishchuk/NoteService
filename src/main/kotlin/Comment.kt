@@ -3,6 +3,5 @@ data class Comment(
     val noteId: Long,
     val ownerId: Note,
     var message: String = "",
-
     var isDelete: Boolean = false,
 )

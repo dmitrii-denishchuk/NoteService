@@ -35,6 +35,5 @@ class NoteService : CrudService<Note> {
     }
 
     override fun restore(id: Long) {
-        TODO("Not yet implemented")
     }
 }

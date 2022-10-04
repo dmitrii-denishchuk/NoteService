@@ -197,17 +197,4 @@ class CommentServiceTest {
         service.add(comment)
         service.restore(666)
     }
-
-//    @Test(expected = NotFoundException::class)
-//    fun shouldThrowRestore_NoteNotFound() {
-//        val service = CommentService()
-//        val note = Note()
-//        val note1 = Note()
-//        service.note.add(note)
-//
-//        val comment = Comment(noteId = note1, ownerId = note1, message = "random")
-//        service.add(note, comment)
-//
-//        service.restore(comment)
-//    }
 }
